@@ -1,0 +1,11 @@
+{
+    "name": "AdBlocker extension :: Suchismita", 
+    "version": "1.0",
+    "description": "AdBlocker: an ad blocker is a piece of software that blocks network requests to and/or from advertising servers",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    
+    "manifest_version": 2
+}
